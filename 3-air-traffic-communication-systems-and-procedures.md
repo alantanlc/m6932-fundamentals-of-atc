@@ -90,17 +90,17 @@ ATC English
 - No concern of polite or not
 
 ### Common ATC Instructions
-1. Request: Ask for permission/information
-1. Affirm/Negative/Say again: Yes/No/Repeat what you said
-1. Standby: Wait
-1. Cleared to...: Approved
-1. Taxi to runway ___ by taxiway A, B, C, D...: Taxi your plane to specified runway via taxiway A, B, C, D
-1. Hold/Hold short/Hold your position: Stay at one place, stop and don't move
-1. Squawking: ATC asks you to adjust your transponder code
-1. Say intention: Tell ATC your intention of flight
-1. Vector: ATC guiding your plane by using radar vector method
-1. Climb FL170 / Descent to 3000ft: Climb to Flight Level 170 / Descent to 3000 feet
-1. Contact _____ on 118 decimal 4: Switch your radio frequency to 118.4 and contact a specified ATC (e.g. Tokyo Tower)
+1. __Request__: Ask for permission/information
+1. __Affirm/Negative/Say again__: Yes/No/Repeat what you said
+1. __Standby__: Wait
+1. __Cleared to...__: Approved
+1. __Taxi to runway ___ by taxiway A, B, C, D...: Taxi your plane to specified runway via taxiway A, B, C, D
+1. __Hold/Hold short/Hold your position__: Stay at one place, stop and don't move
+1. __Squawking__: ATC asks you to adjust your transponder code
+1. __Say intention__: Tell ATC your intention of flight
+1. __Vector__: ATC guiding your plane by using radar vector method
+1. __Climb FL170 / Descent to 3000ft__: Climb to Flight Level 170 / Descent to 3000 feet
+1. __Contact _____ on 118 decimal 4__: Switch your radio frequency to 118.4 and contact a specified ATC (e.g. Tokyo Tower)
 
 <a name='phraseology'></a>
 
@@ -115,21 +115,23 @@ Commonly used radiotelephony (RTF) phrases that may be encountered during a rout
 
 <a name='clearance'></a>
 
-### Clearance and Taxi
+### 1. Clearance and Taxi
 __Taxing is a Safety Critical Activity__
 - Taxi Clearance Limit: Point at which the aircraft must stop unless further permission to proceed is given
 - Crossing an Intermediate Runway: If a taxi route involves crossing a runway, whether active or not, specific clearance to cross that runway is required
 
 Example: RTF Taxi Instructions to Departure Runway
+```
 Pil: Metro Ground, Big Jet 345, request taxi
 ATC: Big Jet 345, Metro Ground, taxi to holding point C, runway 27
 Pil: Taxi to holding point C, runway 27, Big Jet 345
 ATC: Big Jet 345, contact Metro Tower 119 decimal 2
 Pil: Contact Metro Tower 119 decimal 2, Big Jet 345
+```
 
 <a name='takeoff'></a>
 
-### Take-off and Departure
+### 2. Take-off and Departure
 - 'Take-off' shall only be used when issuing a clearance to take-off
 - Any instructions to HOLD, HOLD POSITION or HOLD SHOFT OF, shall be read back in full
 - In the airport environment, the word 'cleared' shall only be used in connection with a clearance to take-off or land.
@@ -148,8 +150,11 @@ Pil: Contact Metro Radar 124 decimal 6, Big Jet 345
 
 <a name='climb'></a>
 
-### Climb, Cruise and Descent
-Initial Calls: On first contact after departure include: Call-sign + SID + Current or passing level plus cleared level
+### 3. Climb, Cruise and Descent
+
+Initial calls - on first contact after departure include:
+
+    <Call-sign> <SID> <Current or passing level plus cleared level>
 
 Once Airborne:
 ```
@@ -157,18 +162,22 @@ ATC: Big Jet 345, contact Metro Radar 124 decimal 6
 Pil: Contact Metro Radar 124 decimal 6, Big Jet 345
 ```
 
-Initial call to radar:
+Initial Call to Radar:
 ```
 Pil: Metro Radar, Big Jet 345, T3F, passing 2300 feet climbing to 6000 feet
 ATC: Big Jet 345, Metro Radar, radar contact
 ```
 
 Degrees & Flight Level changes:
+```
 ATC: Big Jet 345, fly heading 260 (degrees), climb to FL 100
 Pil: Fly heading 260 (degrees), climb to FL 100, Big Jet 345
 ```
 
 <a name='approach'></a>
+
+### 4. Approach and Landing
+
 Pilot-interpreted approaches (e.g. ILS) phraseology
 'Cleared ILS Approach Runway xx',
 
@@ -185,13 +194,17 @@ Pil: Cleared ILS approach runway 27 Right, Big Jet 345
 <a name='emergency'></a>
 
 ### Emergency Communications
-RTF Emergency Communications: Always ask for assistance when in doubt
+RTF Emergency Communications: Always ask for assistance when in doubt.
 
-A __distress__ message (situation where the aircraft __requires immediate assistance__) is prefixed: MAYDAY, MAYDAY, MAYDAY
+Two types of emergency messages:
+- A __distress__ message - situation where the aircraft __requires__ immediate assistance:
+  - Prefix: _MAYDAY, MAYDAY, MAYDAY_
+- An __urgency__ message - situtation __not requiring__ immediate assistance:
+  - Prefix: _PAN-PAN, PAN-PAN, PAN-PAN_
 
-An __urgency__ message (situtation __not requiring immediate assistance__) is prefixed: PAN-PAN, PAN-PAN, PAN-PAN
-
-Initial call on the frequency in use ELSE __squawk 7700 and call on 121.5__.
+Initial call on:
+- the frequency in use or,
+- squawk 7700 and call on 121.5.
 
 Distress/Urgency message format:
 1. Station addressed
@@ -211,5 +224,6 @@ Supporting information:
 Example: RTF Emergency Communications
 ```
 Pil: MAYDAY, MAYDAY, MAYDAY, Metro Control, Big Jet 345, main electric failure, request immediate landing at Metro, position 35 miles north west of Metro, heading 120 flight level 80 descending, 150 persons on board, endurance 3 hours
+
 ATC: Big Jet 345, roger the MAYDAY, turn left heading 090, radar vectors ILS runway 27
 ```
